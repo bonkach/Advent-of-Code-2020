@@ -52,6 +52,5 @@ for i in range(1, 21):
 umn = 1
 for ključ in rj_konačno:
     if 'departure' in ključ:
-        print(ključ)
         umn *= int(rj_konačno[ključ])
 print(umn)
